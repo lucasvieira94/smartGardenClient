@@ -1,0 +1,64 @@
+.mainDiv{
+    background-image: url("http://www.sofiamohr.com/wp-content/uploads/2018/04/5_Aromatica_Pattern-1640x1280.png");
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'great_vibesregular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0px;
+    
+}
+.h1{
+    color: white;
+    margin: 0px;
+    text-shadow:2px 2px #ff0000;
+    
+}
+.plantImage{  
+    margin-left: auto;
+    margin-right: auto; 
+    width: 40%;
+}
+
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('../Presets/Fonts/greatvibes-regular-webfont.woff2') format('woff2'),
+         url('../Presets/Fonts/greatvibes-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.text1{
+  display: flex;
+  flex-direction: column;
+  position: absolute; 
+  top: 440px;
+  left: 650px; 
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    top: 150px;
+    left: 453px; 
+  }
+  
+  .lampImage{
+      position: absolute;
+      width: 5%;
+      transform: rotate(180deg);
+      top: 150px;
+      left:400px;
+  }
+
+  
+.absolute{
+  position:absolute;
+}
+
+
