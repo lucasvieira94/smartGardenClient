@@ -1,0 +1,19 @@
+#icon{
+    height: 50px;
+    width: 50px;
+}
+
+.mainDashboardDiv{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top:350px;
+    left: 925px;
+    height: 250px;
+    width: 200px;
+}
+
+#innerDiv {
+    display: flex;
+    align-items: flex-start;
+}

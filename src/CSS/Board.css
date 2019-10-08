@@ -1,0 +1,55 @@
+.board{
+    position: absolute;
+    margin: 0px;
+    top:50px;
+    left: 0px;
+    width: 300px;
+    height: auto;
+    
+  }
+
+  .nomePlanta{
+    
+    left:-10px;
+    top: 16px;
+    position:absolute;
+    color: white;
+    font-family: 'great_vibesregular';
+    text-shadow:2px 2px black;
+  }
+
+  .textPlant{
+      position: relative;
+      height: 150px;
+      width: 170px;
+      font-size: 13px;
+      top: 110px;
+      left: 65px;
+      font-family: 'brandon_grotesquemedium';
+    
+      
+  }
+
+.divImg{
+    position:absolute;
+    top:250px;
+    left: 70px;
+}
+
+  @font-face {
+    font-family: 'great_vibesregular';
+    src: url('../Presets/Fonts/greatvibes-regular-webfont.woff2') format('woff2'),
+         url('../Presets/Fonts/greatvibes-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_grotesquemedium';
+    src: url('../Presets/Fonts/brandon-grotesque-medium-587bd623e472a-webfont.woff2') format('woff2'),
+         url('../Presets/Fonts/brandon-grotesque-medium-587bd623e472a-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
