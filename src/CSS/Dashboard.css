@@ -1,19 +1,40 @@
-#icon{
-    height: 50px;
-    width: 50px;
+#icon {
+  height: 50px;
+  width: 50px;
 }
 
-.mainDashboardDiv{
-    display:flex;
-    flex-direction: column;
-    position: absolute;
-    top:350px;
-    left: 925px;
-    height: 250px;
-    width: 200px;
+.mainDashboardDiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 250px;
+  left: 70%;
+  height: 250px;
+  width: 200px;
 }
 
 #innerDiv {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
+}
+
+@font-face {
+  font-family: "brandon_grotesquemedium";
+  src: url("../Presets/Fonts/brandon-grotesque-medium-587bd623e472a-webfont.woff2")
+      format("woff2"),
+    url("../Presets/Fonts/brandon-grotesque-medium-587bd623e472a-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p.dash {
+  font-family: "brandon_grotesquemedium";
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  font-size: 15px;
+  padding: 3px;
+  border-radius: 10px;
 }

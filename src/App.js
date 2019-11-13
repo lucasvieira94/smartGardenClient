@@ -1,8 +1,11 @@
 import React from "react";
-import MainPage from "./Components/MainPage";
-
+//import MainPage from "./Components/MainPage";
+//  import PersonList from "./Components/teste";
+import Request from "./Components/Request";
 function App() {
-  return <MainPage />;
+  return <Request />;
 }
 
 export default App;
+
+

@@ -2,9 +2,9 @@ import React from "react";
 import "../CSS/Rect.css";
 
 function Rect(props) {
-  console.log(props.label.length);
+  
   return (
-    <svg width={props.label.length * 8 + 50} height="40">
+    <svg width={props.label.length * 8 + 55} height="40">
       <g id="my-group">
         <rect
           x="10"
