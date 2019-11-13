@@ -1,8 +1,26 @@
-.nomePlanta {
-  color: rgb(80, 80, 80);
-  font-family: "brandon_grotesquemedium";
-  text-shadow: 2px 2px black;
-  margin: 5px 0px;
+  .nomePlanta{
+
+    color: rgb(80, 80, 80);
+    font-family: 'brandon_grotesquemedium';
+    text-shadow:2px 2px black;
+    margin:5px 0px;
+
+  }
+
+  .textPlant{
+
+      width: 300px;
+      font-size: 20px;
+      font-family: 'brandon_grotesquemedium';
+      padding: 10px;
+  }
+
+.divImg{
+    position:absolute;
+    top:400px;
+    left: 10%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .textPlant {
