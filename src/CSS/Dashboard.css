@@ -3,43 +3,6 @@
   width: 50px;
 }
 
-<<<<<<< HEAD
-.mainDashboardDiv {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 250px;
-  left: 70%;
-  height: 250px;
-  width: 200px;
-}
-
-#innerDiv {
-  display: flex;
-  align-items: flex-start;
-}
-
-@font-face {
-  font-family: "brandon_grotesquemedium";
-  src: url("../Presets/Fonts/brandon-grotesque-medium-587bd623e472a-webfont.woff2")
-      format("woff2"),
-    url("../Presets/Fonts/brandon-grotesque-medium-587bd623e472a-webfont.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-p.dash {
-  font-family: "brandon_grotesquemedium";
-  background-color: white;
-  border: 1px;
-  border-style: solid;
-  border-color: black;
-  font-size: 15px;
-  padding: 3px;
-  border-radius: 10px;
-}
-=======
 .mainDashboardDiv{
     display:flex;
     flex-direction: column;
@@ -73,4 +36,3 @@ p.dash{
     padding:3px;
     border-radius: 10px;
 }
->>>>>>> 23ea7b0fe4eb6d955e041e4d8bb42210dd810980
